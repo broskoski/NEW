@@ -27,7 +27,7 @@
 @import url("http://hello.myfonts.net/count/2ba1d4");
 
 
-@font-face {font-family: 'NeuzeitSLTStd-Book';src: url('webfonts/2BA1D4_0_0.eot');src: url('webfonts/2BA1D4_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2BA1D4_0_0.woff') format('woff'),url('webfonts/2BA1D4_0_0.ttf') format('truetype');}
+@font-face {font-family: 'NeuzeitSLTStd-Book'; font-style: normal; font-weight: normal;src: url('webfonts/2BA1D4_0_0.eot');src: url('webfonts/2BA1D4_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2BA1D4_0_0.woff') format('woff'),url('webfonts/2BA1D4_0_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'NeuzeitSLTStd-BookHeavy';src: url('webfonts/2BA1D4_1_0.eot');src: url('webfonts/2BA1D4_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2BA1D4_1_0.woff') format('woff'),url('webfonts/2BA1D4_1_0.ttf') format('truetype');}
+@font-face {font-family: 'NeuzeitSLTStd-BookHeavy'; font-weight: bold;src: url('webfonts/2BA1D4_1_0.eot');src: url('webfonts/2BA1D4_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2BA1D4_1_0.woff') format('woff'),url('webfonts/2BA1D4_1_0.ttf') format('truetype');}
