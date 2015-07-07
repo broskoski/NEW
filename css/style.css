@@ -27,7 +27,7 @@ body{
   margin: 0px;
   -webkit-font-smoothing: antialiased;
 }
-.topblock{
+/*.topblock{
   position:fixed;
   display: block;
   height: 50vh;
@@ -46,7 +46,7 @@ body{
   padding: 0;
   margin-top: 50vh;
   -webkit-animation: colorPulsebottom 5s infinite alternate;
-}
+}*/
 .top{
   float:left;
 }
@@ -93,19 +93,18 @@ a:hover{
   left: 50%;
   margin-top: -20px;
   margin-left: -40px;
+  text-align: center;
 }
 .qc{
   line-height: 80px
   width: 80px;
   height: 80px;
-  text-align: center;
 }
 .dash {
   margin-bottom: 0;
   position: absolute;
   text-indent: 0;
 }
-
 .info{
   position: absolute;
   bottom: 0;
