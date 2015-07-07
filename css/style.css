@@ -21,6 +21,7 @@ body{
   color: black;
   margin: 0px;
   -webkit-font-smoothing: antialiased;
+  background-color: #eee;
 }
 .top{
   float:left;
@@ -44,7 +45,8 @@ a:hover{
   transform: translateY(-5px);
 }
 .main{
-  height: 95vh;
+  height: 98vh;
+  width: 90vw;
   padding: 1vh;
   text-align: left;
   z-index: 10;
@@ -52,7 +54,7 @@ a:hover{
   position: relative;
 }
 .q {
-  font-size: 2em;
+  font-size: em;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
@@ -62,13 +64,11 @@ a:hover{
 }
 .outer{
   position: absolute;
-  width:80px;
-  height: 80px;
-  top: 50%;
-  left: 50%;
-  margin-top: -10px;
-  margin-left: -40px;
-  text-align: center;
+  padding-top: 1vh;
+  padding-right: 1vh;
+  top:0;
+  right: 0;
+  text-align: right;
 }
 .qc{
   line-height: 80px
@@ -77,5 +77,5 @@ a:hover{
 }
 .info{
   position: absolute;
-  bottom: -2vh;
+  bottom: 0;
 }
