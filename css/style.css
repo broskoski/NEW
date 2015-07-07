@@ -14,16 +14,41 @@ hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padd
 input,select{vertical-align:middle}
 
 
+@-webkit-keyframes colorPulsetop  {0% {background-color: white;} 99% {background-color: white;} 100% {background-color: red;}}
+
+@-webkit-keyframes colorPulsebottom {0% {background-color: blue;} 1% {background-color: #eee;} 100% {background-color: #eee;}}
 
 
 body{
-  font-family: NeuzeitSLTStd-BookHeavy, sans-serif;
-  font-size: 1.8em;
-  line-height: 160%;
-  color: white;
-  background-color: black;
+  font-family: NeuzeitSLTStd-Book, sans-serif;
+  font-size: 3em;
+  line-height: 100%;
+  color: black;
   margin: 0px;
   -webkit-font-smoothing: antialiased;
+}
+.topblock{
+  position:fixed;
+  display: block;
+  height: 50vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50vh;
+  -webkit-animation: colorPulsetop 6s infinite ;
+}
+.bottomblock{
+  position:fixed;
+  display: block;
+  height: 50vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  margin-top: 50vh;
+  -webkit-animation: colorPulsebottom 5s infinite alternate;
+}
+.top{
+  float:left;
 }
 a{
   padding: 0;
@@ -38,44 +63,51 @@ a{
   color:inherit;
 }
 a:hover{
-  color: rgb(0,0,250);
   -moz-transform: translateY(-5px);
   -o-transform: translateY(-5px);
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
 }
 .main{
-  width: 75vw;
   height: 95vh;
-  margin: 2.5vh;
+  padding: 2.5vh;
   text-align: left;
   z-index: 10;
   position: relative;
 }
-p {
-  text-indent: 10%;
-}
 .q {
-  margin-bottom: 0;
-  position: absolute;
+  font-size: 1.6em;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
+  mix-blend-mode: multiply;
 }
-.q:hover {
+.outer{
+  position: absolute;
+  width:80px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -40px;
+}
+.qc{
+  line-height: 80px
+  width: 80px;
+  height: 80px;
+  text-align: center;
+}
+.dash {
   margin-bottom: 0;
   position: absolute;
-  -moz-transform: translateY(-5px) scaleX(-1) !important;
-  -o-transform: translateY(-5px) scaleX(-1) !important;
-  -webkit-transform: translateY(-5px) scaleX(-1) !important;
-  transform: translateY(-5px) scaleX(-1) !important;
-  filter: FlipH !important;
-  -ms-filter: "FlipH" !important;
+  text-indent: 0;
 }
+
 .info{
   position: absolute;
   bottom: 0;
+  padding-bottom: 2vh;
 }
